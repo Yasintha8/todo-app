@@ -5,7 +5,7 @@ import delete_icon from "../assets/delete.png";
 
 const TodoItems = ({ text, id, isComplete, deleteTodo, toggle }) => {
   return (
-    <div className="flex items-center justify-between bg-gray-50 p-3 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
+    <div className="flex items-center my-3 gap-2 bg-gray-50 p-3 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
       <div
         onClick={() => toggle(id)}
         className="flex items-center cursor-pointer flex-1"
