@@ -59,7 +59,7 @@ const Todo = () => {
           />
           <button
             onClick={add}
-            className="border-none rounded-full bg-blue-600 w-32 h-14 text-white text-lg font-medium transition-all duration-300 hover:bg-blue-700 active:scale-95"
+             className="border-none rounded-full bg-blue-600 w-32 h-14 text-white text-lg font-medium transition-all duration-300 hover:bg-blue-700 active:scale-95 ml-4"
           >
             ADD +
           </button>
