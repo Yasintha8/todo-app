@@ -42,7 +42,7 @@ const Todo = () => {
 
   return (
     <div className="flex flex-col items-center p-4">
-      <div className="bg-white w-11/12 max-w-md flex flex-col p-7 min-h-[500px] rounded-xl shadow-lg ">
+      <div className="bg-gradient-to-r from-gray-200 to-blue-400 w-11/12 max-w-md flex flex-col p-7 min-h-[500px] rounded-xl shadow-lg ">
         {/* ------------Title------------- */}
         <div className="flex items-center mt-4 gap-2">
           <img className="w-10" src={todo_icon} alt="todo icon" />
