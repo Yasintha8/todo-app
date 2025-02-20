@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import todo_icon from '../assets/todo_icon.png'
 import TodoItems from './TodoItems'
 
@@ -65,7 +65,7 @@ useEffect(() => {
         <input ref={inputRef} className='bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600 text-black' type="text" placeholder='Add your task'/>
         <button
         onClick={add}
-        className="border-none rounded-full bg-blue-600 w-32 h-14 text-white text-sm font-medium cursor-pointer"
+        className="border-none rounded-full bg-blue-600 w-32 h-14 text-white text-sm font-medium cursor-pointer "
             >
             ADD +
           </button>
